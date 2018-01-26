@@ -6,6 +6,6 @@ chat_id="237604323"
 message=""
 
 #стандартное(короткое и информативное) сообщение
-message="Hello world!"
+message="123"
 
 curl -s -X POST "$bot_url" -d chat_id="$chat_id" -d text="$message"
